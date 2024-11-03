@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/student-info-app/static/css/main.db927fd2.css",
-    "main.js": "/student-info-app/static/js/main.8a2ba358.js",
+    "main.css": "/student-info-app/static/css/main.db0151b3.css",
+    "main.js": "/student-info-app/static/js/main.87305f2c.js",
     "static/js/453.ab43a753.chunk.js": "/student-info-app/static/js/453.ab43a753.chunk.js",
     "static/media/fa-solid-900.ttf": "/student-info-app/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
     "static/media/fa-brands-400.ttf": "/student-info-app/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
@@ -12,12 +12,12 @@
     "static/media/fa-v4compatibility.ttf": "/student-info-app/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
     "static/media/fa-v4compatibility.woff2": "/student-info-app/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/student-info-app/index.html",
-    "main.db927fd2.css.map": "/student-info-app/static/css/main.db927fd2.css.map",
-    "main.8a2ba358.js.map": "/student-info-app/static/js/main.8a2ba358.js.map",
+    "main.db0151b3.css.map": "/student-info-app/static/css/main.db0151b3.css.map",
+    "main.87305f2c.js.map": "/student-info-app/static/js/main.87305f2c.js.map",
     "453.ab43a753.chunk.js.map": "/student-info-app/static/js/453.ab43a753.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.db927fd2.css",
-    "static/js/main.8a2ba358.js"
+    "static/css/main.db0151b3.css",
+    "static/js/main.87305f2c.js"
   ]
 }
