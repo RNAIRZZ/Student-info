@@ -1,6 +1,5 @@
-// SignupPage.js
 import React, { useState } from 'react';
-import './SignupPage.css'; // Make sure to import your CSS file
+import './SignupPage.css';
 
 const SignupPage = ({ onSignup }) => {
     const [username, setUsername] = useState('');
@@ -12,7 +11,7 @@ const SignupPage = ({ onSignup }) => {
     };
 
     return (
-        <div className="signup-page"> {/* Apply the signup-page class here */}
+        <div className="signup-page">
             <h2>Signup</h2>
             <form onSubmit={handleSubmit}>
                 <input 
@@ -35,4 +34,4 @@ const SignupPage = ({ onSignup }) => {
     );
 };
 
-export default SignupPage; // Ensure this is present
+export default SignupPage;

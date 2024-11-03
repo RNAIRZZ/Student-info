@@ -8,8 +8,8 @@ function LoginPage({ onLogin, onSwitchToSignup }) {
     const handleSubmit = (e) => {
         e.preventDefault();
         // In a real application, validate the login credentials here
-        const userData = { username }; // Use username instead of email
-        onLogin(userData); // Call the onLogin prop with the user data
+        const userData = { username }; 
+        onLogin(userData); 
     };
 
     return (
@@ -19,7 +19,7 @@ function LoginPage({ onLogin, onSwitchToSignup }) {
                 <div>
                     <label>Username:</label>
                     <input
-                        type="text" // Changed type from email to text
+                        type="text" 
                         value={username}
                         onChange={(e) => setUsername(e.target.value)}
                         required

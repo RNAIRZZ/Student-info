@@ -17,18 +17,14 @@
   position: relative;
 }
 
+
 .profile-logo {
   width: 30px; /* Adjust the size as needed */
   height: 30px; /* Adjust the size as needed */
   margin-right: 10px; /* Space between logo and avatar */
 }
 
-.avatar {
-  width: 40px; /* Adjust size as needed */
-  height: 40px; /* Adjust size as needed */
-  border-radius: 50%; /* Make it circular */
-  margin-right: 10px; /* Space between image and username */
-}
+
 
 .username {
   font-weight: bold;

@@ -80,13 +80,14 @@ const students = [
     },
 ];
 
+
 function App() {
     const [user, setUser] = useState(null);
     const [isSignup, setIsSignup] = useState(false);
     const [selectedCategory, setSelectedCategory] = useState('All');
     const [expandedStudentId, setExpandedStudentId] = useState(null);
     const [searchQuery, setSearchQuery] = useState('');
-    const [isDropdownOpen, setIsDropdownOpen] = useState(false); // For dropdown toggle
+    const [isDropdownOpen, setIsDropdownOpen] = useState(false); 
 
     const handleLogin = (userData) => {
         setUser(userData);
@@ -97,6 +98,12 @@ function App() {
         console.log('User signed up:', userData);
         setUser(userData);
         setIsSignup(false);
+    };
+
+    const handleLogout = () => {
+        setUser(null);
+        setIsDropdownOpen(false);
+        alert('User has been logged out');
     };
 
     const toggleDetails = (id) => {
@@ -128,16 +135,14 @@ function App() {
                                 </select>
                                 <SearchBar searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
                             </div>
-
-                            {/* Profile Section */}
+                           
                             <div className="profile-section" onClick={toggleDropdown}>
-                            <img src="profile.jpg"alt="profile" className="avatar" />
                                 <span className="username">{user.username || user.email}</span>
                                 <i className={`arrow ${isDropdownOpen ? 'up' : 'down'}`} />
                                 {isDropdownOpen && (
                                     <div className="dropdown-menu">
                                         <button onClick={() => alert('User Profile')}>Profile</button>
-                                        <button onClick={() => alert('User Logged out')}>Logout</button>
+                                        <button onClick={handleLogout}>Logout</button>
                                     </div>
                                 )}
                             </div>
