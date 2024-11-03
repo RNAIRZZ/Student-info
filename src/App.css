@@ -1,0 +1,240 @@
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Profile Section */
+.profile-section {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  position: relative;
+}
+
+.profile-logo {
+  width: 30px; /* Adjust the size as needed */
+  height: 30px; /* Adjust the size as needed */
+  margin-right: 10px; /* Space between logo and avatar */
+}
+
+.avatar {
+  width: 40px; /* Adjust size as needed */
+  height: 40px; /* Adjust size as needed */
+  border-radius: 50%; /* Make it circular */
+  margin-right: 10px; /* Space between image and username */
+}
+
+.username {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Dropdown Menu */
+.arrow {
+  margin-left: 8px;
+  transition: transform 0.3s;
+}
+
+.arrow.down {
+  transform: rotate(0deg);
+}
+
+.arrow.up {
+  transform: rotate(180deg);
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 60px;
+  right: 0; /* Aligns dropdown to the far right */
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.dropdown-menu button {
+  display: block;
+  width: 100%; /* Full width of the dropdown */
+  padding: 5px;
+  background: none;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+}
+
+.dropdown-menu button:hover {
+  background-color: #eee;
+}
+
+/* App Styles */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 25px;
+  background: linear-gradient( #e8f0fd, #5f80fb,rgb(30, 89, 151),rgb(4, 76, 179));
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 30px;
+  color: #0c0202;
+  font-style: bold;
+  margin-bottom: 10px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Search Bar */
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar select,
+.search-bar input {
+  margin-right: 10px;
+}
+
+/* Input Field for Search Bar */
+.search-bar input {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  border: 2px solid #140e0e;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Style for the Select Dropdown */
+select {
+  width: 150px;
+  padding: 10px;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+select:hover {
+  border-color: #0056b3;
+}
+
+select:focus {
+  border-color: #1a1c1e;
+  outline: none;
+}
+
+option {
+  background-color: #ffffff;
+  color: #333;
+}
+
+/* Student Card List Styles */
+.student-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.student-card {
+  background: #ffffff;
+  padding: 20px;
+  margin: 10px;
+  width: calc(33.33% - 20px);
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.student-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.student-card h3 {
+  font-size: 18px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.student-card p {
+  color: #555;
+  margin: 5px 0;
+}
+
+/* Buttons within Student Card */
+.card-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.block-button,
+.details-button {
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+}
+
+.block-button {
+  background-color: #e85050;
+}
+
+.details-button {
+  background-color: #4c8eff;
+}
+
+.student-card.expanded {
+  background-color: #a6cdef;
+  transition: all 0.3s ease;
+}
+
+.student-details {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  display: block;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .student-card {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .student-card {
+    width: 100%;
+  }
+}

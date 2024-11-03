@@ -1,0 +1,25 @@
+.user-profile {
+    background-color: #f0f4f8; /* Light background for profile section */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center align text */
+    margin: 20px 0; /* Space around profile */
+}
+
+.profile-picture {
+    width: 100px; /* Profile picture width */
+    height: 100px; /* Profile picture height */
+    border-radius: 50%; /* Circular image */
+    margin-bottom: 15px; /* Space below image */
+}
+
+.user-profile h2 {
+    margin: 10px 0; /* Space around the heading */
+    color: #333; /* Heading color */
+}
+
+.user-profile p {
+    margin: 5px 0; /* Space between paragraphs */
+    color: #555; /* Text color */
+}

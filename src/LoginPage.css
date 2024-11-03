@@ -1,0 +1,98 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container Styling */
+.login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient( #e8f0fd, #5f80fb,rgb(30, 89, 151),rgb(4, 76, 179));
+  font-family: Arial, sans-serif;
+}
+
+/* Form Title */
+.login-page h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Label Styling */
+form label {
+  font-size: 0.9rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+/* Input Fields */
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #333;
+  transition: border-color 0.3s ease;
+}
+
+form input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Login Button */
+form button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #4c8eff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Sign Up Link */
+.login-page p {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #d3d3d3;
+}
+
+.login-page button {
+  color: #4c8eff;
+  font-weight: bold;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.login-page button:hover {
+  color: #0056b3;
+}
