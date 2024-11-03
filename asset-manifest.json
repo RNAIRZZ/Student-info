@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Student-info/static/css/main.d8d2a019.css",
-    "main.js": "/Student-info/static/js/main.747817d4.js",
-    "static/js/453.ab43a753.chunk.js": "/Student-info/static/js/453.ab43a753.chunk.js",
-    "static/media/fa-solid-900.ttf": "/Student-info/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
-    "static/media/fa-brands-400.ttf": "/Student-info/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
-    "static/media/fa-solid-900.woff2": "/Student-info/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
-    "static/media/fa-brands-400.woff2": "/Student-info/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
-    "static/media/fa-regular-400.ttf": "/Student-info/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
-    "static/media/fa-regular-400.woff2": "/Student-info/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
-    "static/media/fa-v4compatibility.ttf": "/Student-info/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
-    "static/media/fa-v4compatibility.woff2": "/Student-info/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
-    "index.html": "/Student-info/index.html",
-    "main.d8d2a019.css.map": "/Student-info/static/css/main.d8d2a019.css.map",
-    "main.747817d4.js.map": "/Student-info/static/js/main.747817d4.js.map",
-    "453.ab43a753.chunk.js.map": "/Student-info/static/js/453.ab43a753.chunk.js.map"
+    "main.css": "/student-info/static/css/main.6aee7da6.css",
+    "main.js": "/student-info/static/js/main.6671d8b5.js",
+    "static/js/453.ab43a753.chunk.js": "/student-info/static/js/453.ab43a753.chunk.js",
+    "static/media/fa-solid-900.ttf": "/student-info/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/fa-brands-400.ttf": "/student-info/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/fa-solid-900.woff2": "/student-info/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/fa-brands-400.woff2": "/student-info/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/fa-regular-400.ttf": "/student-info/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/fa-regular-400.woff2": "/student-info/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/fa-v4compatibility.ttf": "/student-info/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/student-info/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "index.html": "/student-info/index.html",
+    "main.6aee7da6.css.map": "/student-info/static/css/main.6aee7da6.css.map",
+    "main.6671d8b5.js.map": "/student-info/static/js/main.6671d8b5.js.map",
+    "453.ab43a753.chunk.js.map": "/student-info/static/js/453.ab43a753.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8d2a019.css",
-    "static/js/main.747817d4.js"
+    "static/css/main.6aee7da6.css",
+    "static/js/main.6671d8b5.js"
   ]
 }
