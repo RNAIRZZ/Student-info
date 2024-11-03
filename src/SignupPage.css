@@ -7,10 +7,10 @@
 .signup-page {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: center;  /* Centers items horizontally */
+  justify-content: center; /* Centers items vertically */
   height: 100vh;
-  background: linear-gradient( #e8f0fd, #5f80fb,rgb(30, 89, 151),rgb(4, 76, 179));
+  background: linear-gradient(#e8f0fd, #5f80fb, rgb(30, 89, 151), rgb(4, 76, 179));
   font-family: Arial, sans-serif;
 }
 
@@ -24,7 +24,7 @@
 form {
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 300px; /* Width of the form */
   padding: 2rem;
   background-color: #fff;
   border-radius: 8px;
@@ -38,13 +38,13 @@ form label {
 }
 
 form input {
-  width: 100%;
+  width: 100%; /* Full width of the form */
   padding: 10px;
   margin-bottom: 1rem;
   border: 1px solid #ddd;
   border-radius: 5px;
   font-size: 1rem;
-  color: #eaece8;
+  color: #333; /* Change text color to be visible */
   transition: border-color 0.3s ease;
 }
 
@@ -54,7 +54,7 @@ form input:focus {
 }
 
 form button[type="submit"] {
-  width: 100%;
+  width: 100%; /* Full width of the form */
   padding: 10px;
   font-size: 1rem;
   color: #fff;
